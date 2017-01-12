@@ -20,8 +20,9 @@ html, body {
 
 @font-face {
     font-family: Coves;
-    src: url("Coves Light.otf") format("opentype");
+    src: url(Coves Light.otf);
 }
+
 
 /* Navbar */
 
