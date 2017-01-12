@@ -19,7 +19,7 @@ html, body {
 }
 
 @font-face {
-    font-family: 'Coves';
+    font-family: Coves;
     src: url("Coves Light.otf") format("opentype");
 }
 
