@@ -18,10 +18,11 @@ html, body {
     width: 150px;
 }
 
-@font-face {
+/*@font-face {
     font-family: Coves;
-    src: url(Coves Light.otf);
-}
+    src: url(Coves Light.otf) format('otf');
+}*/
+@import url('Coves Light.otf');
 
 
 /* Navbar */
