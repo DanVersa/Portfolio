@@ -18,13 +18,6 @@ html, body {
     width: 150px;
 }
 
-/*@font-face {
-    font-family: Coves;
-    src: url(Coves Light.otf) format('otf');
-}*/
-@import url('Coves Light.otf');
-
-
 /* Navbar */
 
 nav {
@@ -51,7 +44,7 @@ nav a {
     transition: all 0.3s ease;
     text-decoration: none;
     color: #fff;
-    font-family: Coves, sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding: 10px;
     font-size: 18px;
     margin-right: 15px;
@@ -80,7 +73,7 @@ nav a:hover {
 
 .head h1 {
     text-align: center;
-    font-family: Snell Roundhand, sans-serif;
+    font-family: 'Kaushan Script', sans-serif;
     color: #fff;
     text-align: center;
     font-size: 200px;
