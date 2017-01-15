@@ -128,14 +128,14 @@ nav a:hover {
 
 .page2 h1 {
     text-align: center;
-    font-family: Coves, sans-serif;
+    font-family: 'Poiret One', sans-serif;
     font-size: 60px;
 }
 
 .page2 h3 {
     text-align: center;
     color: #424242;
-    font-family: Coves, sans-serif;
+    font-family: 'Poiret One', sans-serif;
     font-size: 25px;
     margin-bottom: 120px;
 }
@@ -146,7 +146,7 @@ nav a:hover {
     background-color: #fff;
     border: 2px solid #212121;
     border-radius: 2px;
-    font-family: Coves, sans-serif;
+    font-family: 'Poiret One', sans-serif;
     padding: 20px 60px 20px 60px;
     font-size: 18px;
     transition: all 0.3s ease;
@@ -196,11 +196,11 @@ nav a:hover {
 }
 
 .tabs h1 {
-    font-family: Coves, sans-serif;
+    font-family: 'Poiret One', sans-serif;
 }
 
 .tabs h2 {
-    font-family: Coves, sans-serif;
+    font-family: 'Poiret One', sans-serif;
     font-weight: 500;
 }
 
@@ -258,7 +258,7 @@ nav a:hover {
 }
 
 .page4 h1 {
-    font-family: Coves, sans-serif;
+    font-family: 'Poiret One', sans-serif;
     font-weight: 400;
     text-align: center;
     color: #fff;
@@ -267,7 +267,7 @@ nav a:hover {
 }
 .page4 h3 {
     margin-top: -100px;
-    font-family: Coves, sans-serif;
+    font-family: 'Poiret One', sans-serif;
     font-weight: 400;
     text-align: center;
     color: #fff;
@@ -284,7 +284,7 @@ nav a:hover {
 .page5 h1 {
     margin-top: 150px;
     text-align: center;
-    font-family: Coves, sans-serif;
+    font-family: 'Poiret One', sans-serif;
     font-size: 60px;
     font-weight: 500;
 }
@@ -298,7 +298,7 @@ nav a:hover {
 .page5 p {
     width: 700px;
     color: #757575;
-    font-family: Coves, sans-serif;
+    font-family: 'Poiret One', sans-serif;
     font-size: 20px;
     line-height: 1.5;
 }
@@ -315,7 +315,7 @@ nav a:hover {
 .bottom p {
     padding-top: 30px;
     text-align: center;
-    font-family: Coves, sans-serif;
+    font-family: 'Poiret One', sans-serif;
     color: #fff;
 }
 
@@ -329,7 +329,7 @@ nav a:hover {
 
 .rowa a {
     padding: 12px;
-    font-family: Coves, sans-serif;
+    font-family: 'Poiret One', sans-serif;
     text-decoration: none;
 }
 
