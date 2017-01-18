@@ -76,12 +76,12 @@ nav a:hover {
     font-family: 'Lato', sans-serif;
     color: #fff;
     text-align: center;
-    font-size: 250px;
+    font-size: 200px;
     font-weight: 500;
     position: absolute;
-    top: 18%;
+    top: 15%;
     left: 50%;
-    margin-left: -390px;
+    margin-left: -400px;
 }
 
 .scroll {
