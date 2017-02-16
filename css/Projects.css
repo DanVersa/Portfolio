@@ -54,12 +54,14 @@ nav ul {
 
 .fullpage h1 {
 	font-family: 'Lato', sans-serif;
+	font-weight: 100;
 	font-size: 50px;
 }
 
 .fullpage h3 {
 	font-family: 'Lato', sans-serif;
 	font-size: 25px;
+	font-weight: 100;
 }
 
 .line {
@@ -79,6 +81,7 @@ nav ul {
     padding: 20px 60px 20px 60px;
     font-size: 18px;
     transition: all 0.3s ease;
+    font-weight: 100;	
 }
 
 .fullpage a:hover {
