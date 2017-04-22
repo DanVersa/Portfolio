@@ -41,6 +41,14 @@
 	font-size: 25px;
 }
 
+.dev a {
+	
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 25px;
+}
+
 .back a {
 	text-align: center;
 	background-color: #000;
