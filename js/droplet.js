@@ -1,5 +1,5 @@
 $(document).ready(function(){
 	$("#page").hide();
-	$("#page").fadeIn("slow");
+	$("#page").fadeIn(2000);
 
 });
