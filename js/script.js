@@ -22,22 +22,25 @@ function closeNav() {
   };
 
 })();
+
+
+
 $(document).ready(function(){
-	$(".scroll").click(function() {
-        $('html,body').animate({
-            scrollTop: $("#page2").offset().top}, 1500);
-    });
-  $('.head1').hide();
-  $('.linke').hide();
-  $('.head1').fadeIn(2000);
-  $('.linke').fadeIn(2000);
+    
+    $('.heading').hide().delay(800);
+    $('.hamspan').hide().delay(800);
+    $('.heading').fadeIn(1500);
+    $('.hamspan').delay(200).fadeIn(1500);
 
 });
 $(window).scroll(function() {
-	if ($(this).scrollTop() > 600) {
+	if ($(this).scrollTop() > 750) {
 		$('.hamspan').css("position", "fixed");
+        $('.hamspan').css("z-index", "10");
+        $('.heading').fadeOut(1000);
 
 	} else { 
 		$('.hamspan').css("position", "absolute");
+        $('.heading').fadeIn(1000);
 	} 
 });
