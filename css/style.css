@@ -185,7 +185,7 @@ html, body {
     flex-direction: column;
     align-content: space-around;
     align-items: center;
-    justify-content: space-between; /* change for space between */
+    justify-content: space-around; /* change for space between */
 
 }
 
@@ -240,7 +240,7 @@ html, body {
     flex-direction: column;
     align-content: space-around;
     align-items: center;
-    justify-content: space-between; /* change for space between */
+    justify-content: space-around; /* change for space between */
     
 }
     
@@ -295,7 +295,7 @@ html, body {
     flex-direction: column;
     align-content: space-around;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
