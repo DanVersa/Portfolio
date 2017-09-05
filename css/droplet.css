@@ -13,15 +13,6 @@
 	
 }
 
-#page img:hover {
-
-	height: 160px;
-	width: 160px;
-	cursor: pointer;
-	transition: all 0.3s ease;
-
-}
-
 #page p {
 
 	text-align: center;
