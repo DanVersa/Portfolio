@@ -14,6 +14,7 @@ html, body {
     z-index: 1;
     top: 0;
     left: 0;
+    right: 0;
     background-color: #274255;
     overflow-y: hidden;
     transition: 0.5s;
@@ -193,6 +194,7 @@ html, body {
 
     height: 75px;
     width: 75px;
+    
 
 }
 
@@ -202,7 +204,13 @@ html, body {
     font-family: Avenir, sans-serif;
     font-size: 70px;
     font-weight: 700;
-    padding: 30px;
+    padding: 25px;
+
+}
+
+#page3 #colright img {
+
+    height: 700px;
 
 }
 
@@ -241,7 +249,7 @@ html, body {
     flex-direction: column;
     align-content: space-around;
     align-items: center;
-    justify-content: center; /* change for space between */
+    justify-content: space-evenly; /* change for space between */
     
 }
     
@@ -258,7 +266,6 @@ html, body {
     font-family: Avenir, sans-serif;
     font-size: 70px;
     font-weight: 700;
-    padding: 30px;
     
 }
     
@@ -297,7 +304,7 @@ html, body {
     flex-direction: column;
     align-content: space-around;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 
@@ -318,7 +325,6 @@ html, body {
     font-family: Avenir, sans-serif;
     font-size: 25px;
     font-weight: 500;
-    padding: 30px;
 
 }
 
@@ -361,12 +367,6 @@ html, body {
     width: 50px;
     transition: all 0.2s ease;
 }
-  
-#bottom img:hover {
-    height: 54px;
-    width: 54px;
-    transition: all 0.2s ease;
-}
 
 /* Media Queries */
 
@@ -375,7 +375,7 @@ html, body {
     #page1 h1 {
 
         font-size: 45px;
-        padding-left: 40px;
+        padding-left: 35px;
 
     }
 
@@ -405,6 +405,12 @@ html, body {
 
     }
 
+    #page3 #colright img {
+
+        height: 550px;
+
+    }
+
     #page4 #colright p {
 
         font-size: 15px;
@@ -416,13 +422,6 @@ html, body {
         
         height: 150px;
         
-    }
-	
-    #bottom img {
-	
-	height: 40px;
-	width: 40px;
-		
     }
 
 
