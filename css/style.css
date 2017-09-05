@@ -249,7 +249,7 @@ html, body {
     flex-direction: column;
     align-content: space-around;
     align-items: center;
-    justify-content: space-evenly; /* change for space between */
+    justify-content: center; /* change for space between */
     
 }
     
@@ -266,6 +266,7 @@ html, body {
     font-family: Avenir, sans-serif;
     font-size: 70px;
     font-weight: 700;
+    padding: 25px;
     
 }
     
@@ -304,7 +305,7 @@ html, body {
     flex-direction: column;
     align-content: space-around;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 
@@ -325,6 +326,7 @@ html, body {
     font-family: Avenir, sans-serif;
     font-size: 25px;
     font-weight: 500;
+    padding: 25px;
 
 }
 
