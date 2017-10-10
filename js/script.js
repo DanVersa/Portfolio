@@ -34,7 +34,7 @@ $(document).ready(function(){
 
 });
 $(window).scroll(function() {
-	if ($(this).scrollTop() > 750) {
+	/*if ($(this).scrollTop() > 750) {
 		$('.hamspan').css("position", "fixed");
         $('.hamspan').css("z-index", "10");
         $('.heading').fadeOut(1000);
@@ -42,5 +42,5 @@ $(window).scroll(function() {
 	} else { 
 		$('.hamspan').css("position", "absolute");
         $('.heading').fadeIn(1000);
-	} 
+	}*/ 
 });
