@@ -8,30 +8,54 @@
         <meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no; target-densityDpi=device-dpi">
         <meta name="description" content="Dan Versalov is a self-taught Web Developer/Designer and iOS Developer who works on freelance projects and and mobile applications">
         <link rel="shortcut icon" href="img/fav.png" type="image/jpg">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
     </head>
     <body>
 
+        <div class="loader">
+
+            <img class="LoadLogo" src="img/loader.png" height="100px"/>
+            <h3 class="loadertext">Loading</h3>
+
+        </div>
+
         <!-- Navigation Bar -->
 
-        <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-                <a href="Resume.pdf" target="blank">Resume</a>
-                <a href="droplet.html">Droplet LP</a>
-                <a href="https://www.redbubble.com/people/danversa">Store</a>
-                <a href="mailto:dan.versalov@gmail.com">Contact</a>
+        <div id="navbarid" class="navbar">
+
+            <div class="closebtn" onclick="closeNav()">
+
+                    <div id="btn-bar-close1" class="btn-bar-close"></div>
+                    <div id="btn-bar-close2" class="btn-bar-close"></div>
+
             </div>
+
+            <h1>DAN VERSALOV</h1>
+
+            <a href="Resume.pdf" target="blank">Resume</a>
+            <a href="droplet.html">Droplet LP</a>
+            <a href="#">Coming Soon (BA)</a>
+            <a href="mailto:dan.versalov@gmail.com">Contact</a>
+            
+
         </div>
-        <div class="ham">
-	        <span class="hamspan" style="font-size:30px;cursor:pointer" onclick="openNav()"><img class="hamimg" src="img/menu.png"></span>
+
+        <div class="navbarbtn" onclick="openNav()">
+
+            <div id="btn-bar-1" class="btn-bar"></div>
+            <div id="btn-bar-2" class="btn-bar"></div>
+            <div id="btn-bar-3" class="btn-bar"></div>
+
         </div>
 
         <!-- Page 1 -->
 
         <div class="container-fluid" id="page1">
 
-            <h1 class="heading">Developer. <br/>Designer. <br/>Dan Versalov.</h1>
+            <p>DEVELOPER</p>
+            <h1>DAN VERSALOV</h1>
+            <p>DESIGNER</p>
             
 
         </div>
@@ -40,8 +64,16 @@
 
         <div class="container-fluid" id="page2">
 
-            <h1>100% Handwritten Code</h1>
+            <h3>WHAT I <span class="redcolor">LOVE</span> TO DO</h3>
+            <p>
+                
+                5 years ago I typed my first code into the computer with sheer
+                excitement. Little did I know that it would grow into a hobby,
+                a job, and a stress-reliever. Now, I'm starting a clothing brand (Binary
+                Apparel USA), building two iOS apps, and developing websites for people
+                on the side. All of this while trying to finish high school.
 
+            </p>
 
         </div>
 
@@ -53,7 +85,7 @@
 
                 <div id="colleft">
 
-                    <img src="img/fav.png"/>
+                    <img src="img/fav2.png"/>
                     <center><h1>iOS</h1></center>
                     <center><p>
                         
@@ -87,8 +119,8 @@
                 
                 <div id="colright">
                 
-                    <img src="img/fav.png"/>
-                    <center><h1>Web</h1></center>
+                    <img src="img/fav2.png"/>
+                    <center><h1>WEB</h1></center>
                     <center><p>
                                         
                         Self-taught expert Front-End Developer with 4 years of experience in HTML, CSS, Javascript, JQuery, Bootstrap,
@@ -104,10 +136,16 @@
 
         <!-- Page5 -->
 
-        <div class="container-fluid" id="page5">
+        <div id="page5">
 
-                <h1>Need A Website?</h1>
-                <a href="mailto:dan.versalov@gmail.com">Contact</a>
+            <h3>NEED A <span class="redcolor">WEBSITE?</span></h3>
+            <p>
+                
+                Feel free to contact me if you're interested in a website for your
+                business or for yourself. My rates are cheap and I only charge when
+                you are satisfied.
+
+            </p>
 
         </div>
 
