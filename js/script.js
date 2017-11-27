@@ -5,7 +5,7 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
 }
-(function(){
+/*(function(){
 
   var parallax = document.querySelectorAll("#page1"),
       speed = 0.5;
@@ -21,7 +21,7 @@ function closeNav() {
     });
   };
 
-})();
+})();*/
 
 
 
