@@ -491,6 +491,7 @@ font-size: 20px;
 
     #page3 #colleft {
 
+        height: 750px;
         width: 100%;
         float: none;
 
@@ -498,6 +499,7 @@ font-size: 20px;
 
     #page3 #colright {
 
+        height: 750px;
         width: 100%;
         float: none;
 
@@ -524,6 +526,7 @@ font-size: 20px;
         
     #page4 #colleft {
         
+        height: 750px;
         width: 100%;
         float: none;
         
@@ -531,6 +534,7 @@ font-size: 20px;
         
     #page4 #colright {
         
+        height: 750px;
         width: 100%;
         float: none;
         
