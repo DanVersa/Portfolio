@@ -7,7 +7,7 @@ html, body {
 
 html {
 
-font-size: 20px;
+    font-size: 20px;
 
 }
 
@@ -75,6 +75,7 @@ font-size: 20px;
     width: 32px;
     border-radius: 1px;
     background-color: #212121;
+    transition: all 0.3s ease;
 
 }
 
@@ -188,6 +189,9 @@ font-size: 20px;
     font-family: Lato, sans-serif;
     font-weight: 300;
     font-size: 4rem;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px;
+    border-radius: 2px;
 
 }
 
@@ -198,6 +202,9 @@ font-size: 20px;
     font-weight: 300;
     font-size: 1rem;
     letter-spacing: 5px;
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px;
+    border-radius: 2px;
 
 }
 
@@ -275,7 +282,7 @@ font-size: 20px;
     color: #fff;
     font-family: "Lato", sans-serif;
     font-size: 70px;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 5px;
 
 }
@@ -290,9 +297,10 @@ font-size: 20px;
 
     color: #fff;
     font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 100;
+    font-size: 18px;
     width: 400px;
+    letter-spacing: 1px;
 
 }
 
@@ -342,7 +350,7 @@ font-size: 20px;
     color: #fff;
     font-family: "Lato", sans-serif;
     font-size: 70px;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 5px;
     
 }
@@ -351,9 +359,10 @@ font-size: 20px;
     
     color: #fff;
     font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
+    font-weight: 100;
+    font-size: 18px;
     width: 400px;
+    letter-spacing: 1px;
     
 }
     
@@ -459,7 +468,7 @@ font-size: 20px;
 
 #bottom img:hover {
 
-    background-color: #212121;
+    background-color: #fff;
     border-radius: 50%;
     transition: all 0.3s ease;
 
@@ -528,7 +537,7 @@ font-size: 20px;
         
         height: 750px;
         width: 100%;
-        float: none;
+        float: right;
         
     }
         
@@ -536,7 +545,7 @@ font-size: 20px;
         
         height: 750px;
         width: 100%;
-        float: none;
+        float: left;
         
     }
 
