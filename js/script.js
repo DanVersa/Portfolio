@@ -1,11 +1,17 @@
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
 
-$(window).on("load", function() {
-    $(".loadertext").fadeOut(1000);
-    $(".loader").fadeOut(2000);
-});
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
 
 $(document).ready(function(){
-   
+    
+    $(window).on("load", function() {
+        $(".loadertext").fadeOut(1000);
+        $(".loader").fadeOut(2000);
+    });
     $('.heading').hide().delay(800);
     $('.hamspan').hide().delay(800);
     $('.heading').fadeIn(1500);
@@ -19,6 +25,18 @@ $(document).ready(function(){
     $(".navbarbtn").mouseleave(function(){
         
         $("#btn-bar-2").css("transform", "translate(0px, 0px)");
+        
+    });
+
+    $(".closebtn").mouseenter(function(){
+
+        $("#btn-bar-close2").css("transform", "translate(-3px, 0px)");
+
+    });
+    
+    $(".closebtn").mouseleave(function(){
+        
+        $("#btn-bar-close2").css("transform", "translate(0px, 0px)");
         
     });
 
