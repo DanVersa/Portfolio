@@ -1,17 +1,10 @@
-function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-}
-
-function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-}
+$(window).on("load", function() {
+    $(".loadertext").fadeOut(1000);
+    $(".loader").fadeOut(2000);
+});
 
 $(document).ready(function(){
     
-    $(window).on("load", function() {
-        $(".loadertext").fadeOut(1000);
-        $(".loader").fadeOut(2000);
-    });
     $('.heading').hide().delay(800);
     $('.hamspan').hide().delay(800);
     $('.heading').fadeIn(1500);
