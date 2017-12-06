@@ -383,6 +383,48 @@ html {
 
 }
 
+/* Work */
+
+.workh1 {
+
+    text-align: center;
+    color: #212121;
+    font-family: Lato, sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#work {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.websiteblock {
+
+    height: 200px;
+    width: 350px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+    margin: 50px;
+
+}
+
+#marieweb {
+
+    background-image: url("../img/marie.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 /* Page 5 */
 
 #page5 {
@@ -560,6 +602,13 @@ html {
         
         height: 150px;
         
+    }
+
+    .websiteblock {
+
+        height: 150px;
+        width: 250px;
+
     }
 
 
