@@ -425,6 +425,15 @@ html {
 
 }
 
+#venusweb {
+
+    background-image: url("../img/venus.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 /* Page 5 */
 
 #page5 {
