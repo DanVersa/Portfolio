@@ -443,6 +443,15 @@ html {
 
 }
 
+#binaryapparelusa {
+
+    background-image: url("../img/pimpity.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
 /* Page 5 */
 
 #page5 {
