@@ -363,6 +363,12 @@ body {
         width: 85%;
 
     }
+    
+    .center-nav a {
+    
+        font-size: 2rem;
+    
+    }
 
 }
 
