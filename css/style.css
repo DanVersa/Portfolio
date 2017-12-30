@@ -1,0 +1,757 @@
+/* Universal Calls */
+
+html, body {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+
+    font-size: 16px;
+
+}
+
+body {
+
+    background-color: #F7F7FF;
+
+}
+
+.red-color {
+
+    color: #FE5F55;
+
+}
+
+.sep-line {
+
+    height: 2px;
+    width: 100px;
+    background-color: #FE5F55;
+    margin-bottom: 50px;
+
+}
+
+.sep-line-sm {
+
+    height: 2px;
+    width: 50px;
+    background-color: #FE5F55;
+
+}
+
+/* Loader */
+
+.loader {
+
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: #F7F7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+
+}
+
+.typeload {
+
+    height: 30px;
+    width: 3px;
+    background-color: #FE5F55;
+
+}
+
+/* Load Animation Classes */
+
+.typeInOut {
+
+    animation-name: type-in-out; 
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+
+}
+
+.typeFullHeight {
+
+    animation-name: type-full-height; 
+    animation-duration: .25s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+}
+
+.typeFullWidth {
+
+    animation-name: type-full-width; 
+    animation-duration: .25s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+}
+
+/* Navbar */
+
+.navbar {
+
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1005;
+    background-color: #495867;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+}
+
+.left-nav {
+
+    height: 100%;
+    width: 15%;
+    float: left;
+
+}
+
+.center-nav {
+
+    width: 85%;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.center-nav h1 {
+
+    color: #F7F7FF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+
+}
+
+.bold-link {
+
+    font-weight: 700;
+
+}
+
+.center-nav a {
+
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #F7F7FF;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    position: relative;
+    transition: all 0.3s ease;
+
+}
+
+.center-nav a:hover {
+
+    transition: all 0.3s ease;
+    color: #FE5F55;
+
+}
+
+/* Close Nav */
+
+.closenav {
+
+    position: relative;
+    top: 50%;
+    left: 50%; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+    font-size: 1rem;
+    display: inline-block;
+    overflow: hidden;
+    color: #F7F7FF;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 2px solid #F7F7FF;
+
+}
+
+/* Body Border */
+
+.websiteFrame {
+
+    position: fixed;
+    z-index: 990;
+    background-color: #495867;
+
+}
+
+#websiteFrameTop {
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+
+}
+
+#websiteFrameRight {
+
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+
+}
+
+#websiteFrameBottom {
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+
+}
+
+#websiteFrameLeft {
+
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 10px;
+
+}
+
+
+
+/* Main */
+
+.main {
+
+    height: 100%;
+    width: 100%;
+    background-color: #F7F7FF;
+    z-index: 2;
+
+}
+
+/* Left Content */
+
+.left-content {
+ 
+    height: 100%;
+    position: fixed;
+    width: 15%;
+    float: left;
+    background-color: transparent;
+    z-index: 101;
+
+}
+
+/* Open Nav */
+
+.opennav {
+
+    position: relative;
+    top: 50%;
+    left: 50%; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+    font-size: 1rem;
+    display: inline-block;
+    overflow: hidden;
+    color: #FE5F55;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 2px solid #FE5F55;
+
+} 
+
+/* Center Cotnent */
+
+.center-content {
+
+    width: 85%;
+    float: right;
+
+}
+
+/* intro */
+
+.intro {
+
+    height: 100%;
+    background-color: #F7F7FF;
+    display: flex;
+    align-items: center;
+
+}
+
+.intro h1 {
+
+    color: #495867;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+
+}
+
+.desc-animation {
+
+    padding-bottom: 40px;
+
+}
+
+.intro a {
+
+    color: #FE5F55;
+    font-size: .85rem;
+    border: 1px solid #FE5F55;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+
+}
+
+.intro a:hover {
+
+    transition: all 0.3s ease;
+    background-color: #FE5F55;
+    color: #F7F7FF;
+
+}
+
+.scroll {
+
+    height: 37px;
+    width: 25px;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    border: 2px solid #495867;
+    margin-left: -15px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.scroll .ball {
+
+    margin-top: 7px;
+    height: 5px;
+    width: 5px;
+    background-color: #495867;
+    border-radius: 50%;
+    animation-name: ballmove;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+
+}
+
+/* Info */
+
+.freelance-info {
+
+    height: 400px;
+
+}
+
+.left-col {
+
+    width: 40%;
+    float: left;
+
+}
+
+.right-col {
+
+    width: 50%;
+    float: right;
+
+}
+
+.right-col h1 {
+
+    font-size: 3.5rem;
+    color: #495867;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.right-col p {
+
+    font-size: 1rem;
+    color: #495867;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 50px;
+    width: 75%;
+
+}
+
+.right-col a {
+
+    color: #FE5F55;
+    font-size: .85rem;
+    border: 1px solid #FE5F55;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+
+}
+
+.right-col a:hover {
+
+    transition: all 0.3s ease;
+    background-color: #FE5F55;
+    color: #F7F7FF;
+
+}
+
+.left-col img {
+
+    height: 300px;
+
+}
+
+/* About */
+
+.about {
+
+    width: 100%;
+    height: 300px;
+
+}
+
+.about h1 {
+
+    font-family: "Montserrat", sans-serif;
+    color: #495867;
+    font-size: 3.5rem;
+
+}
+
+.about img {
+
+    width: 25%;
+
+}
+
+.about p {
+
+    font-size: 1rem;
+    color: #495867;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 50px;
+    width: 50%;
+
+}
+
+/* Explaination */
+
+.exp {
+
+    position: absolute;
+    margin-left: -15%;
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/bk1.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.exp .box {
+
+    background-color: #F7F7FF;
+    height: 350px;
+    width: 300px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 50px;
+    border-radius: 5px;
+
+}
+
+.exp .box h1 {
+
+    font-family: "Montserrat", sans-serif;
+    color: #495867;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.exp .box p {
+
+    color: #495867;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 25px;
+    text-align: center;
+
+}
+
+.box img {
+
+    height: 100px;
+
+}
+
+/* Explaination Replace */
+
+.exp-replace {
+
+    width: 100%;
+    height: 500px;
+
+}
+
+/* Why Me? */
+
+.why {
+
+    width: 100%;
+
+}
+
+.why h1 {
+
+    font-family: "Montserrat", sans-serif;
+    color: #495867;
+    font-size: 3.5rem;
+
+}
+
+.why ul {
+
+    color: #495867;
+    padding-bottom: 50px;
+
+}
+
+.why li {
+
+    color: #495867;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+
+}
+
+/* Bottom */
+
+.bottom {
+
+    position: absolute;
+    margin-left: -15%;
+    height: 200px;
+    width: 100%;
+    border-top: 1px solid #495867;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bottom p {
+
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #495867;
+    font-size: 15px;
+
+}
+
+.icon-row {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bottom img {
+
+    height: 40px;
+    width: 40px;
+    transition: all 0.2s ease;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+
+}
+
+/* Keyframes */
+
+@keyframes type-in-out {
+
+    from {opacity: 0;}
+
+    to {opacity: 1;}
+
+}
+
+@keyframes type-full-height {
+
+    from {height: 30px;}
+
+    to {height: 100%;}
+
+}
+
+@keyframes type-full-width {
+
+    from {width: 3px;}
+
+    to {width: 100%;}
+
+}
+
+@keyframes ballmove {
+    0% {
+
+    }
+    100% {
+        transform: translate(0px, 5px);
+    }
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1000px) {
+
+    .center-nav a {
+
+        font-size: 2rem;
+
+    }
+
+    .intro h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .freelance-info {
+
+        height: 500px;
+
+    }
+
+    .right-col {
+
+        width: 100%;
+        float: none;
+
+    }
+
+    .left-col {
+
+        width: 100%;
+        float: none;
+
+    }
+
+    .right-col h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .left-col img {
+
+        height: 150px;
+
+    }
+
+    .about {
+
+        height: 325px;
+
+    }
+
+    .about h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .about img {
+
+        width: 75%;
+
+    }
+
+    .about p {
+
+        width: 85%;
+
+    }
+
+    .exp {
+
+        height: 1200px;
+
+    }
+
+    .exp .box {
+
+        margin: 25px;
+
+    }
+
+    .exp-replace {
+
+        height: 1200px;
+
+    }
+
+    .why h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .why li {
+
+        font-size: 1rem;
+
+    }
+
+    .why ul {
+
+        width: 85%;
+
+    }
+
+}
