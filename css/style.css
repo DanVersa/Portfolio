@@ -1,0 +1,650 @@
+
+/* Universal */
+
+html, body {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+
+  font-size: 16px;
+
+}
+
+body {
+
+  background-color: #ffffff;
+
+}
+
+::selection {
+
+  background: #ffb7b7;
+
+}
+
+::-moz-selection {
+
+  background: #ffb7b7;
+
+}
+
+/* Loading Screen */
+
+.load-screen {
+
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.load-screen p {
+
+  color: #212121;
+  font-family: "Playfair Display", sans-serif;
+
+}
+
+.line-1 {
+
+  position: relative;
+  border-right: 2px solid #212121;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.slideup-animation {
+
+  animation-name: slideUp;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+
+}
+
+/* Navigation Screen */
+
+.nav-screen {
+
+  height: 100%;
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.nav-screen .ham-menu .ham-line {
+
+  height: 2px;
+  margin: 6px;
+  width: 25px;
+  border-radius: 1px;
+  background-color: #212121;
+  transition: all 0.3s ease;
+
+}
+
+.nav-screen .ham-menu {
+
+  cursor: pointer;
+  position: absolute;
+  top: 20;
+  right: 20;
+  display: flex;
+
+}
+
+.nav-screen a {
+
+  text-decoration: underline;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2rem;
+  color: #212121;
+  transition: all 0.3s ease;
+  margin: 10px;
+
+}
+
+.nav-screen a:hover {
+
+  opacity: 0.75;
+  transition: all 0.3s ease;
+
+}
+
+/* Navigation Bar */
+
+.nav {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.nav .nav-left {
+
+  float: left;
+
+}
+
+.nav .nav-left img {
+
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+
+.nav .nav-right {
+
+  float: right;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 20px;
+
+}
+
+.menu-name {
+
+  font-family: "Playfair Display", sans-serif;
+
+}
+
+.nav .nav-right .ham-menu .ham-line {
+
+  height: 2px;
+  margin: 6px;
+  width: 25px;
+  border-radius: 1px;
+  background-color: #212121;
+  transition: all 0.3s ease;
+
+}
+
+/* Intro */
+
+.intro-content {
+
+  width: 90%;
+  height: 98%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 0 auto;
+
+}
+
+.intro-lc {
+
+  width: 40%;
+
+}
+
+.intro-rc {
+
+  width: 60%;
+
+}
+
+.intro-rc h1 {
+
+  font-family: "Playfair Display", sans-serif;
+  font-size: 3.5rem;
+  color: #212121;
+  width: 85%;
+
+}
+
+.intro-rc p {
+
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.5rem;
+  width: 75%;
+  padding-bottom: 50px;
+
+}
+
+.intro-rc a {
+
+  color: #212121;
+  text-decoration: none;
+  border: 1px solid #212121;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  padding: 25px 40px 25px 40px;
+  transition: all 0.3s ease;
+  letter-spacing: 8px;
+
+}
+
+.intro-rc a:hover {
+
+  color: #fff;
+  background-color: #212121;
+  transition: all 0.3s ease;
+
+}
+
+/* Dept */
+
+.project {
+
+  width: 100%;
+  background-color: #212121;
+  margin: 0 auto;
+
+}
+
+.project .dept {
+
+  margin: 0 auto;
+  width: 75%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.project h1 {
+
+  color: #fff;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.25rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+.project .dept-main p {
+
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+.project .three-sec {
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.project .dept-sec {
+
+  width: 33.3333%;
+  padding-top: 25px;
+
+}
+
+.project .dept-sec h2 {
+
+  font-size: 1.75rem;
+  letter-spacing: 5px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+.project .dept-sec img {
+
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+
+}
+
+.project .dept-sec p {
+
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+/* Clothing */
+
+.clothing-sec {
+
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.clothing-main {
+
+  margin: 0 auto;
+  width: 75%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: flex;
+
+}
+
+.clothing-lc {
+
+  float: left;
+  width: 50%;
+
+}
+
+.clothing-lc h1 {
+
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.5rem;
+  color: #212121;
+  width: 90%;
+
+}
+
+.clothing-lc p {
+
+  font-family: "Playfair Display", sans-serif;
+  color: #212121;
+  font-size: 1.25rem;
+  width: 90%;
+
+}
+
+.clothing-lc a {
+
+  color: #212121;
+  text-decoration: underline;
+  font-family: "Playfair Display", sans-serif;
+  transition: all 0.3s ease;
+
+}
+
+.clothing-lc a:hover {
+
+  color: #fff;
+  background-color: #212121;
+  transition: all 0.3s ease;
+
+}
+
+.clothing-rc {
+
+  float: right;
+  width: 50%;
+  display: flex;
+  align-items: center;
+
+}
+
+.clothing-rc img {
+
+  width: 90%;
+
+}
+
+/* Hashtag */
+
+.hashtag {
+
+  height: 500px;
+  background-image: url("../img/bkgrd1.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.hashtag p {
+
+  color: #fff;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.25rem;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+
+}
+
+
+
+/* Contact */
+
+.contact {
+
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.contact-main {
+
+  margin: 0 auto;
+  width: 75%;
+  padding-top: 100px;
+  padding-bottom: 140px;
+  text-align: center;
+
+}
+
+.contact-main h1 {
+
+  font-size: 2.5rem;
+  color: #212121;
+  font-family: "Playfair Display", sans-serif;
+
+}
+
+.contact-main p {
+
+  font-size: 1.5rem;
+  color: #212121;
+  font-family: "Playfair Display", sans-serif;
+  padding-bottom: 40px;
+
+}
+
+.contact-main a {
+
+  color: #212121;
+  text-decoration: none;
+  border: 1px solid #212121;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 25px 40px 25px 40px;
+  transition: all 0.3s ease;
+  letter-spacing: 8px;
+
+}
+
+.contact-main a:hover {
+
+  color: #fff;
+  background-color: #212121;
+  transition: all 0.3s ease;
+
+}
+
+/* End */
+
+.end {
+
+  height: 200px;
+  width: 100%;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.end p {
+
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 15px;
+
+}
+
+.icon-row {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.end img {
+
+    height: 30px;
+    width: 30px;
+    transition: all 0.2s ease;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    margin: 25px;
+    padding: 2px;
+    background-color: #fff;
+
+}
+
+.end img:hover {
+
+  background-color: #eee;
+
+}
+
+/* Animations */
+
+/* Typewriter */
+
+.anim-typewriter {
+
+  animation: typewriter 1s steps(17) .5s 1 normal both, blinkTextCursor 500ms steps(17) infinite normal;
+
+}
+
+@keyframes typewriter {
+
+  from {width: 0;}
+  to {width: 8.1rem;}
+
+}
+@keyframes blinkTextCursor {
+
+  from {border-right-color: #212121;}
+  to {border-right-color: transparent;}
+
+}
+
+/* Slide Animation */
+
+@keyframes slideUp {
+
+  0%{opacity: 0; transform: matrix(1, 0, 0, 1, 0, 100);}
+  100%{opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);}
+
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1000px) {
+
+  .intro-lc {
+
+    width: 0%;
+    float: none;
+
+  }
+
+  .intro-rc {
+
+    width: 100%;
+    float: none;
+
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .intro-rc h1 {
+
+    font-size: 2.5rem;
+    width: 95%;
+
+  }
+
+  .intro-rc p {
+
+    font-size: 1rem;
+    width: 85%;
+
+  }
+
+  .project .dept-sec {
+
+    width: 100%;
+
+  }
+
+  .clothing-lc {
+
+    width: 100%;
+    float: none;
+    padding-bottom: 100px;
+
+  }
+
+  .clothing-rc {
+
+    width: 100%;
+    float: none;
+
+  }
+
+  .clothing-main {
+
+    display: block;
+    padding-top: 50px;
+
+  }
+
+}
