@@ -422,6 +422,7 @@ body {
   background-image: url("../img/bkgrd1.jpg");
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
