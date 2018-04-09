@@ -314,17 +314,18 @@ body {
 
 /* Media Queries */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 768px) {
 
   .project-box .box {
 
-    width: 250px;
+    height: 150px;
+    width: 200px;
 
   }
 
   .project-box p {
 
-    width: 250px;
+    width: 200px;
 
   }
 
