@@ -208,7 +208,7 @@ body {
 
 .contact-top p {
 
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: "Playfair Display", sans-serif;
 
 }
@@ -216,6 +216,7 @@ body {
 .contact-top a {
 
   color: #212121;
+  text-decoration: none;
 
 }
 
@@ -228,7 +229,7 @@ body {
 .contact-middle p {
 
   padding-left: 15px;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-family: "Playfair Display", sans-serif;
 
 }
@@ -241,57 +242,22 @@ body {
 
 }
 
-/*
+/* Sign Off */
 
-input {
-
-  width: 100%;
-  outline: none;
-  border: none;
-  margin-bottom: 50px;
-  font-family: "Playfair Display", sans-serif;
-  font-size: 1.25rem;
-  border: none;
-  border-bottom: 1px solid #212121;
-
-}
-
-textarea {
+.sign-off {
 
   width: 100%;
-  resize: none;
-  outline: none;
-  border: none;
-  border-bottom: 1px solid #212121;
+
+}
+
+.sign-off p {
+
+  text-align: center;
   font-family: "Playfair Display", sans-serif;
-  font-size: 1.25rem;
-  margin-bottom: 50px;
+  padding-bottom: 75px;
 
 }
 
-button {
-
-  color: #212121;
-  cursor: pointer;
-  text-decoration: none;
-  border: 1px solid #212121;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 0.75rem;
-  padding: 25px 40px 25px 40px;
-  transition: all 0.3s ease;
-  letter-spacing: 8px;
-
-}
-
-button:hover {
-
-  color: #fff;
-  background-color: #212121;
-  transition: all 0.3s ease;
-
-}
-*/
 /* Media Queries */
 
 @media only screen and (max-width: 1000px) {
