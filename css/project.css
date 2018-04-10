@@ -312,6 +312,22 @@ body {
 
 }
 
+/* Sign Off */
+
+.sign-off {
+
+  width: 100%;
+
+}
+
+.sign-off p {
+
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  padding-bottom: 75px;
+
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
