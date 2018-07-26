@@ -441,7 +441,135 @@ body {
 
 }
 
+/* About */
 
+.about {
+
+  width: 100%;
+  margin: 0 auto;
+
+}
+
+.about-main {
+
+  margin: 0 auto;
+  width: 75%;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  display: flex;
+
+}
+
+.about-lc {
+
+  float: left;
+  width: 50%;
+
+}
+
+.about-lc img {
+
+  margin-left: 30px;
+
+}
+
+.about-rc {
+
+  float: right;
+  width: 50%;
+
+}
+
+.about-rc h1 {
+
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.5rem;
+  color: #212121;
+  width: 90%;
+
+}
+
+.about-rc p {
+
+  font-family: "Playfair Display", sans-serif;
+  color: #212121;
+  font-size: 1.25rem;
+  width: 90%;
+
+}
+
+.about-rc a {
+
+  color: #212121;
+  text-decoration: underline;
+  font-family: "Playfair Display", sans-serif;
+  transition: all 0.3s ease;
+
+}
+
+.about-rc a:hover {
+
+  opacity: 0.75;
+  transition: all 0.3s ease;
+
+}
+
+/* Blog */
+
+.blog {
+
+  width: 100%;
+  margin: 0 auto;
+  background-color: #212121;
+
+}
+
+.blog-main {
+
+  margin: 0 auto;
+  width: 75%;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+
+}
+
+.blog-main h1 {
+
+  text-align: center;
+  color: #fff;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.25rem;
+  margin: 0;
+  padding: 0;
+
+}
+
+.blog-main p {
+
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: center;
+
+}
+
+.blog-main a {
+
+  color: #fff;
+  text-decoration: underline;
+  font-family: "Playfair Display", sans-serif;
+  transition: all 0.3s ease;
+
+}
+
+.blog-main a:hover {
+
+  opacity: 0.75;
+  transition: all 0.3s ease;
+
+}
 
 /* Contact */
 
@@ -456,8 +584,8 @@ body {
 
   margin: 0 auto;
   width: 75%;
-  padding-top: 100px;
-  padding-bottom: 140px;
+  padding-top: 150px;
+  padding-bottom: 190px;
   text-align: center;
 
 }
