@@ -1,28 +1,32 @@
 
+// Main Javascript File For Dan V Design Co.
+
 $(".main").hide();
 $(".nav-screen").hide();
 
+/* Link Animation */
+
 $(document).on("click", "a", function () {
 
-    // get the href attribute
     var newUrl = $(this).attr("href");
 
-    // veryfy if the new url exists or is a hash
     if (!newUrl || newUrl[0] === "#") {
-        // set that hash
+
         location.hash = newUrl;
         return;
     }
 
-    // now, fadeout the html (whole page)
     $("html").fadeOut(function () {
-        // when the animation is complete, set the new location
+
         location = newUrl;
+
     });
 
-    // prevent the default browser behavior.
     return false;
+
 });
+
+/* Load In The Page */
 
 $(window).on("load", function() {
 
@@ -38,15 +42,7 @@ $(window).on("load", function() {
 
 });
 
-/*$(window).scroll(function() {
-
-  if ($(document).scrollTop() > 800) {
-
-    $(".dept-sec").addClass("slideup-animation");
-
-  }
-
-});*/
+/* Navigation Anaimation */
 
 function openNav() {
 
@@ -68,14 +64,5 @@ function closeNav() {
     $(".main").fadeIn(1000);
 
   });
-
-}
-
-function emailCopy() {
-
-  var copy = "dan.versalov@gmail.com";
-  var copytext = $('<input>').val(copy).appendTo('body').select();
-
-  document.execCommand('Copy');
 
 }
