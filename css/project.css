@@ -193,6 +193,28 @@ body {
 
 }
 
+.work-info p {
+
+  padding-bottom: 10px;
+
+}
+
+.work-info a {
+
+  color: #212121;
+  text-decoration: underline;
+  font-family: "Playfair Display", sans-serif;
+  transition: all 0.3s ease;
+
+}
+
+.work-info a:hover {
+
+  opacity: 0.75;
+  transition: all 0.3s ease;
+
+}
+
 .work-content {
 
   padding-top: 75px;
@@ -440,4 +462,4 @@ body {
 
   }
 
-} 
+}
