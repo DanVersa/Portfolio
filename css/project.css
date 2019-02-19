@@ -184,6 +184,18 @@ body {
 
 }
 
+.intro-content {
+
+  text-align: center;
+
+}
+
+.intro-content img {
+
+  padding: 10px;
+
+}
+
 /* Projects Section */
 
 .work {
