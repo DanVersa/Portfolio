@@ -304,15 +304,16 @@ body {
 
   width: 33.3333%;
   padding-top: 25px;
+  border-top: 2px solid #fff;
+  margin-top: 27px;
 
 }
 
 .project .dept-sec h2 {
 
   font-size: 1.75rem;
-  letter-spacing: 5px;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair display", sans-serif;
   font-weight: 300;
   text-align: center;
 
@@ -406,13 +407,14 @@ body {
   float: right;
   width: 45%;
   display: flex;
+  justify-content: center;
   align-items: center;
 
 }
 
 .clothing-rc img {
 
-  width: 80%;
+  width: 70%;
 
 }
 
@@ -482,7 +484,7 @@ body {
 .about-lc img {
 
   margin-left: 30px;
-  width: 60%;
+  width: 50%;
 
 }
 
