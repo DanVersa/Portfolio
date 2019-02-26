@@ -819,6 +819,13 @@ body {
     padding-top: 50px;
 
   }
+  
+  .hashtag {
+  
+    background-image: none;
+    background-color: #212121;
+  
+  }
 
   .gallery {
 
@@ -845,8 +852,7 @@ body {
 
   .about-lc img {
 
-    width: 100%;
-    margin-left: 0px;
+    width: 85%;
 
   }
 
