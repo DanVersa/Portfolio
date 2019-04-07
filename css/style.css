@@ -188,9 +188,9 @@ body {
 
 .intro-content {
 
-  width: 90%;
+  width: 85%;
   height: 98%;
-  min-height: 600px;
+  min-height: 500px;
   display: flex;
   align-items: center;
   background-color: #ffffff;
@@ -200,17 +200,19 @@ body {
 
 .intro-lc {
 
-  width: 40%;
+  width: 85%;
 
 }
 
-.intro-rc {
+.intro-rc img {
 
-  width: 60%;
+  position: absolute;
+  bottom: 2%;
+  right: 0;
 
 }
 
-.intro-rc h1 {
+.intro-lc h1 {
 
   font-family: "Playfair Display", sans-serif;
   font-size: 3.5rem;
@@ -219,7 +221,7 @@ body {
 
 }
 
-.intro-rc p {
+.intro-lc p {
 
   font-family: "Playfair Display", sans-serif;
   font-size: 1.5rem;
@@ -228,7 +230,7 @@ body {
 
 }
 
-.intro-rc a {
+.intro-lc a {
 
   color: #212121;
   text-decoration: none;
@@ -242,7 +244,7 @@ body {
 
 }
 
-.intro-rc a:hover {
+.intro-lc a:hover {
 
   color: #fff;
   background-color: #212121;
@@ -273,7 +275,7 @@ body {
 
   color: #fff;
   font-family: "Playfair Display", sans-serif;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -339,54 +341,54 @@ body {
 
 }
 
-/* Clothing */
+/* Brand */
 
-.clothing-sec {
+.brand-sec {
 
   width: 100%;
   margin: 0 auto;
+  background-color: #fff;
 
 }
 
-.clothing-main {
+.brand-main {
 
   margin: 0 auto;
-  width: 75%;
+  width: 85%;
   padding-top: 100px;
-  padding-bottom: 100px;
   display: flex;
   align-items: center;
 
 }
 
-.clothing-lc {
+.brand-lc {
 
   float: left;
   width: 50%;
 
 }
 
-.clothing-lc h1 {
+.brand-lc h1 {
 
   font-family: "Playfair Display", sans-serif;
   font-size: 2.5rem;
   color: #212121;
-  width: 90%;
+  width: 85%;
   margin: 0;
   padding: 0;
 
 }
 
-.clothing-lc p {
+.brand-lc p {
 
   font-family: "Playfair Display", sans-serif;
   color: #212121;
   font-size: 1.25rem;
-  width: 90%;
+  width: 85%;
 
 }
 
-.clothing-lc a {
+.brand-lc a {
 
   color: #212121;
   text-decoration: underline;
@@ -395,45 +397,133 @@ body {
 
 }
 
-.clothing-lc a:hover {
+.brand-lc a:hover {
 
   opacity: 0.75;
   transition: all 0.3s ease;
 
 }
 
-.clothing-rc {
+.brand-rc {
 
   float: right;
-  width: 45%;
+  width: 50%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 
 }
 
-.clothing-rc img {
+.brand-rc img {
 
-  width: 70%;
+  width: 95%;
+  max-width: 600px;
 
 }
 
-/* Hashtag */
+/* Website */
 
-.hashtag {
+.website-sec {
 
-  height: 500px;
   width: 100%;
-  background-image: url("../img/coffeebk.jpg");
+  margin: 0 auto;
+  background-color: #fff;
+
+}
+
+.website-main {
+
+  margin: 0 auto;
+  width: 85%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+
+}
+
+.website-rc {
+
+  float: right;
+  width: 50%;
+  text-align: right;
+
+}
+
+.website-lc {
+
+  float: left;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.website-rc-content {
+
+  width: 85%;
+  float: right;
+
+}
+
+.website-rc h1 {
+
+  font-family: "Playfair Display", sans-serif;
+  font-size: 2.5rem;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+
+}
+
+.website-rc p {
+
+  font-family: "Playfair Display", sans-serif;
+  color: #212121;
+  font-size: 1.25rem;
+
+}
+
+.website-rc a {
+
+  color: #212121;
+  text-decoration: underline;
+  font-family: "Playfair Display", sans-serif;
+  transition: all 0.3s ease;
+
+}
+
+.website-rc a:hover {
+
+  opacity: 0.75;
+  transition: all 0.3s ease;
+
+}
+
+.website-lc img {
+
+  width: 95%;
+
+}
+
+/* About */
+
+.about-sec {
+
+  width: 100%;
+  margin: 0 auto;
+  background-image: url(../img/about.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 
 }
 
-.hashtag-main {
+.about-main {
 
-  height: 500px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -443,7 +533,15 @@ body {
 
 }
 
-.hashtag p {
+.about-sec h1 {
+
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: "Playfair Display", sans-serif;
+
+}
+
+.about-sec p {
 
   color: #fff;
   font-family: "Playfair Display", sans-serif;
@@ -452,80 +550,6 @@ body {
   padding-right: 20%;
   text-align: center;
   position: relative;
-
-}
-
-/* About */
-
-.about {
-
-  width: 100%;
-  margin: 0 auto;
-
-}
-
-.about-main {
-
-  margin: 0 auto;
-  width: 75%;
-  padding-top: 150px;
-  padding-bottom: 150px;
-  display: flex;
-
-}
-
-.about-lc {
-
-  float: left;
-  width: 50%;
-
-}
-
-.about-lc img {
-
-  margin-left: 30px;
-  width: 50%;
-
-}
-
-.about-rc {
-
-  float: right;
-  width: 50%;
-
-}
-
-.about-rc h1 {
-
-  font-family: "Playfair Display", sans-serif;
-  font-size: 2.5rem;
-  color: #212121;
-  width: 90%;
-
-}
-
-.about-rc p {
-
-  font-family: "Playfair Display", sans-serif;
-  color: #212121;
-  font-size: 1.25rem;
-  width: 90%;
-
-}
-
-.about-rc a {
-
-  color: #212121;
-  text-decoration: underline;
-  font-family: "Playfair Display", sans-serif;
-  transition: all 0.3s ease;
-
-}
-
-.about-rc a:hover {
-
-  opacity: 0.75;
-  transition: all 0.3s ease;
 
 }
 
@@ -743,33 +767,46 @@ body {
 
   .intro-lc {
 
-    width: 0%;
-    float: none;
-
-  }
-
-  .intro-rc {
-
     width: 100%;
-    float: none;
 
   }
+
 
 }
 
 @media only screen and (max-width: 768px) {
 
-  .intro-rc h1 {
+  .intro-lc h1 {
 
     font-size: 2.5rem;
     width: 95%;
 
   }
 
-  .intro-rc p {
+  .intro-lc p {
 
     font-size: 1rem;
     width: 85%;
+
+  }
+
+  .intro-lc a {
+
+    color: #212121;
+    text-decoration: none;
+    border: 1px solid #212121;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 0.6rem;
+    padding: 18px 30px 18px 30px;
+    transition: all 0.3s ease;
+    letter-spacing: 8px;
+
+  }
+
+  .intro-rc img {
+
+    height: 50%;
 
   }
 
@@ -779,7 +816,7 @@ body {
 
   }
 
-  .clothing-lc {
+  .brand-lc {
 
     width: 100%;
     float: none;
@@ -788,43 +825,90 @@ body {
 
   }
 
-  .clothing-lc h1 {
+  .brand-lc h1 {
 
     width: 100%;
 
   }
 
-  .clothing-lc p {
+  .brand-lc p {
 
     width: 100%;
 
   }
 
-  .clothing-rc {
+  .brand-rc {
 
     width: 100%;
     float: none;
 
   }
 
-  .clothing-rc img {
+  .brand-rc img {
 
     width: 100%;
 
   }
 
-  .clothing-main {
+  .brand-main {
+
+    display: block;
+    padding-top: 75px;
+
+  }
+  /* */
+  .website-rc {
+
+    width: 100%;
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 75px;
+    padding-top: 75px;
+
+  }
+
+  .website-rc-content {
+
+    float: none;
+    width: 100%;
+
+  }
+
+  .website-rc h1 {
+
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .website-rc p {
+
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .website-lc {
+
+    width: 100%;
+    float: none;
+
+  }
+
+  .website-lc img {
+
+    width: 100%;
+
+  }
+
+  .website-main {
 
     display: block;
     padding-top: 50px;
 
-  }
-  
-  .hashtag {
-  
-    background-image: none;
-    background-color: #212121;
-  
   }
 
   .gallery {
@@ -833,53 +917,30 @@ body {
 
   }
 
+  .about-sec {
+
+    background-image: none;
+    background-color: #212121;
+
+  }
+
   .about-main {
 
-    margin: 0 auto;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
   }
 
-  .about-lc {
+  .about-sec p {
 
-    width: 100%;
-    float: none;
-    margin: 0 auto;
-
-  }
-
-  .about-lc img {
-
-    width: 85%;
+    padding-left: 8%;
+    padding-right: 8%;
 
   }
 
-  .about-rc {
+  .about-sec h1 {
 
-    width: 100%;
-    float: none;
-    margin: 0 auto;
-
-  }
-
-  .about-rc h1 {
-
-    width: 100%;
-    text-align: center;
-
-  }
-
-  .about-rc p {
-
-    width: 100%;
-    text-align: center;
-
-  }
-
-  .about-rc {
-
+    width: 75%;
     text-align: center;
 
   }
