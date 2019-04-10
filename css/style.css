@@ -376,6 +376,26 @@ body {
   width: 85%;
   margin: 0;
   padding: 0;
+  position: relative;
+
+}
+
+.brand-lc h1 span {
+
+  background-color: #BEFFBC;
+
+}
+
+.brand-lc h1:after {
+
+  content: attr(data-content);
+  position: absolute;
+  color: #212121;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #fff;
 
 }
 
@@ -474,6 +494,26 @@ body {
   color: #212121;
   margin: 0;
   padding: 0;
+  position: relative;
+
+}
+
+.website-rc h1 span {
+
+  background-color: #BEFFBC;
+
+}
+
+.website-rc h1:after {
+
+  content: attr(data-content);
+  position: absolute;
+  color: #212121;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #fff;
 
 }
 
