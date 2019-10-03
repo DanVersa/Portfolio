@@ -235,7 +235,7 @@ body {
   color: #212121;
   text-decoration: none;
   border: 1px solid #212121;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 0.75rem;
   padding: 25px 40px 25px 40px;
@@ -265,7 +265,7 @@ body {
 .project .dept {
 
   margin: 0 auto;
-  width: 75%;
+  width: 85%;
   padding-top: 100px;
   padding-bottom: 100px;
 
@@ -278,17 +278,17 @@ body {
   font-size: 2.5rem;
   margin: 0;
   padding: 0;
-  text-align: center;
 
 }
 
 .project .dept-main p {
 
   color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.25rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
   font-weight: 300;
-  text-align: center;
+  padding-bottom: 50px;
 
 }
 
@@ -296,28 +296,27 @@ body {
 
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 
 }
 
 .project .dept-sec {
 
-  width: 33.3333%;
+  width: 30%;
   padding-top: 25px;
   border-top: 2px solid #fff;
   margin-top: 27px;
 
 }
 
-.project .dept-sec h2 {
+.project .dept-sec h1 {
 
   font-size: 1.75rem;
   color: #fff;
   font-family: "Playfair display", sans-serif;
-  font-weight: 300;
-  text-align: center;
+  font-weight: 700;
+  padding-bottom: 20px;
 
 }
 
@@ -332,12 +331,9 @@ body {
 .project .dept-sec p {
 
   color: #fff;
-  font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 300;
-  text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  font-size: .85rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
 
 }
 
@@ -401,7 +397,7 @@ body {
 
 .brand-lc p {
 
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Lato", sans-serif;
   color: #212121;
   font-size: 1.25rem;
   width: 85%;
@@ -519,7 +515,7 @@ body {
 
 .website-rc p {
 
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Lato", sans-serif;
   color: #212121;
   font-size: 1.25rem;
 
@@ -552,41 +548,70 @@ body {
 .about-sec {
 
   width: 100%;
-  margin: 0 auto;
   background-color: #eee;
+  overflow: hidden;
+  height: 600px;
 
 }
 
-.about-main {
+.about-sec .about-left {
 
-  padding-top: 150px;
-  padding-bottom: 150px;
-  width: 100%;
+  width: 40%;
+  float: left;
+  background-image: url('../img/about.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100%;
+
+}
+
+.about-sec .about-right {
+
+  width: 60%;
+  float: right;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  transition: all 0.3s ease;
 
 }
 
-.about-sec h1 {
+.about-right .about-content {
 
-  color: #212121;
+  width: 85%;
+
+}
+
+.about-right h1 {
+
+  font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
-  font-family: "Playfair Display", sans-serif;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
 
 }
 
-.about-sec p {
+.about-right h3 {
+
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
 
   color: #212121;
-  font-family: "Playfair Display", sans-serif;
+  margin: 0;
+  padding-top: 20px;
+
+}
+
+.about-right p {
+
+  font-family: 'Lato', sans-serif;
   font-size: 1.25rem;
-  padding-left: 20%;
-  padding-right: 20%;
-  text-align: center;
-  position: relative;
+  color: #212121;
+  margin: 0;
+  padding: 0;
 
 }
 
@@ -624,7 +649,7 @@ body {
 .blog-main p {
 
   color: #212121;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 1.25rem;
   font-weight: 300;
   text-align: center;
@@ -673,7 +698,7 @@ body {
 
   margin: 0 auto;
   width: 75%;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 190px;
   text-align: center;
 
@@ -701,7 +726,7 @@ body {
   color: #212121;
   text-decoration: none;
   border: 1px solid #212121;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 500;
   font-size: 0.75rem;
   padding: 25px 40px 25px 40px;
@@ -720,25 +745,52 @@ body {
 
 /* End */
 
-.end {
+.sep-line {
 
-  height: 200px;
+  height: 2px;
   width: 100%;
-  background-color: #212121;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: #fff;
 
 }
 
-.end p {
+.end-coffee h1 {
 
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    color: #fff;
-    font-size: 15px;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 50px;
+
+}
+
+.end {
+
+  width: 100%;
+  background-color: #212121;
+
+}
+
+.end-content {
+
+  width: 85%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+
+}
+
+.end-title h1 {
+
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+
+}
+
+.end-group {
+
+  display: flex;
+  justify-content: space-between;
 
 }
 
@@ -752,17 +804,10 @@ body {
 
 .end img {
 
-    height: 25px;
-    width: 25px;
+    height: 22px;
+    width: 22px;
     transition: all 0.3s ease;
-    margin: 25px;
-    padding: 2px;
-
-}
-
-.end img:hover {
-
-
+    margin-left: 20px;
 
 }
 
@@ -832,7 +877,7 @@ body {
     color: #212121;
     text-decoration: none;
     border: 1px solid #212121;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 0.6rem;
     padding: 18px 30px 18px 30px;
@@ -844,6 +889,11 @@ body {
   .intro-rc img {
 
     height: 50%;
+
+  }
+  .project h1 {
+
+    font-size: 2rem;
 
   }
 
@@ -954,31 +1004,30 @@ body {
 
   }
 
-  .about-main {
+  .about-sec {
 
-    padding-top: 100px;
-    padding-bottom: 100px;
-
-  }
-
-  .about-sec p {
-
-    padding-left: 8%;
-    padding-right: 8%;
+    height: 750px;
 
   }
 
-  .about-sec h1 {
+  .about-sec .about-left {
 
-    width: 75%;
-    text-align: center;
+    display: none;
+    float: none;
 
   }
 
-  .invision-main .gallery img {
+  .about-sec .about-right {
 
-    height: 200px;
-    margin-bottom: 10px;
+    width: 100%;
+    float: none;
+
+  }
+  .end-title h1 {
+
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
 
   }
 
