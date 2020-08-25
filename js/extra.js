@@ -1,5 +1,4 @@
 $(".main").hide();
-$(".nav-screen").hide();
 
 $(document).on("click", "a", function () {
 
@@ -25,30 +24,19 @@ $(document).on("click", "a", function () {
 
 $(window).on("load", function() {
 
-  $(".main").fadeIn(1000);
+  $(".main").fadeIn(2500);
 
 });
 
 function openNav() {
 
-  $(".main").fadeOut(500).queue(function(){
-
-    $(this).dequeue();
-    $(".nav-screen").fadeIn(200);
-    $("nav-link").addClass("slideup-animation");
-
-  });
+  document.getElementById("navbarid").style.width = "100%";
+  $("nav-link").addClass("slideup-animation");
 
 }
 
 function closeNav() {
 
-  $(".nav-screen").fadeOut(500).queue(function(){
-
-    $(this).dequeue();
-    $(".main").fadeIn(1000);
-
-  });
+  document.getElementById("navbarid").style.width = "0";
 
 }
- 
