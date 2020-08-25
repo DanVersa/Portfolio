@@ -22,13 +22,13 @@ body {
 
 ::selection {
 
-  background: #BEFFBC;
+  background: #57C58F;
 
 }
 
 ::-moz-selection {
 
-  background: #BEFFBC;
+  background: #57C58F;
 
 }
 
@@ -78,18 +78,37 @@ body {
 .nav-screen {
 
   height: 100%;
-  width: 100%;
+  width: 0;
   z-index: 999;
   position: fixed;
   top: 0;
   right: 0;
-  background-color: #fff;
+  background-color: #212121;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: all 1.2s cubic-bezier(.74,.02,.27,.99);
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
+  overflow: hidden;
+
+
+}
+
+.nav-screen .nav-screen-content {
+
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  overflow: hidden;
+
+}
+
+.white-link {
+
+  color: #ffffff;
 
 }
 
@@ -108,27 +127,43 @@ body {
 
   cursor: pointer;
   position: absolute;
-  top: 20;
-  right: 20;
+  top: 35px;
+  right: 30px;
   display: flex;
 
 }
 
-.nav-screen a {
+.nav-screen .logo-nav {
 
-  text-decoration: none;
-  font-family: "Playfair Display", sans-serif;
-  font-size: 2rem;
-  color: #212121;
-  transition: all 0.3s ease;
-  margin: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 
 }
 
-.nav-screen a:hover {
+.nav-screen .nav-screen-content a {
 
-  opacity: 0.75;
-  transition: all 0.3s ease;
+  text-decoration: none;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 500;
+  font-size: 4.5rem;
+  color: #fff;
+  transition: all 0.4s ease;
+  margin: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+
+}
+
+.nav-screen .nav-screen-content a:hover {
+
+  transition: all 0.4s ease;
+  padding-left: 10px;
+  opacity: 0.65;
 
 }
 
@@ -151,8 +186,19 @@ body {
 
 .nav .nav-left img {
 
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 30px;
+  margin-top: 30px;
+
+}
+
+.ham-menu-close {
+
+  cursor: pointer;
+  position: absolute;
+  top: 40;
+  right: 40;
+  display: flex;
+  align-items: center;
 
 }
 
@@ -162,14 +208,22 @@ body {
   cursor: pointer;
   display: flex;
   align-items: center;
-  margin-top: 20px;
-  margin-right: 20px;
+  margin-top: 35px;
+  margin-right: 30px;
+  transition: all 0.4s ease;
+
+}
+
+.nav .nav-right:hover {
+
+  margin-right: 35px;
+  transition: all 0.4s ease;
 
 }
 
 .menu-name {
 
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Lato", sans-serif;
 
 }
 
@@ -181,6 +235,7 @@ body {
   border-radius: 1px;
   background-color: #212121;
   transition: all 0.3s ease;
+  margin-right: 15px;
 
 }
 
@@ -234,13 +289,13 @@ body {
 
   color: #212121;
   text-decoration: none;
-  border: 1px solid #212121;
+  border: 2px solid #212121;
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 0.75rem;
-  padding: 25px 40px 25px 40px;
+  padding: 20px 35px 20px 35px;
   transition: all 0.3s ease;
-  letter-spacing: 8px;
+  letter-spacing: 5px;
 
 }
 
@@ -248,7 +303,8 @@ body {
 
   color: #fff;
   background-color: #212121;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+  padding: 20px 30px 20px 40px;
 
 }
 
@@ -281,14 +337,22 @@ body {
 
 }
 
+.underline {
+
+  border-bottom: 3px solid #57C58F;
+  padding-bottom: 5px;
+
+}
+
 .project .dept-main p {
 
   color: #fff;
-  font-family: "Lato", sans-serif;
+  font-family: "Playfair Display", sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 300;
   padding-bottom: 50px;
+  padding-top: 10px;
 
 }
 
@@ -351,7 +415,7 @@ body {
 
   margin: 0 auto;
   width: 85%;
-  padding-top: 100px;
+  padding-top: 150px;
   display: flex;
   align-items: center;
 
@@ -361,6 +425,16 @@ body {
 
   float: left;
   width: 50%;
+
+}
+
+.accentDivider { /* ACCENT DIVIDER HERE */
+
+  height: 6px;
+  width: 42px;
+  background-color: #57C58F;
+  margin-top: 25px;
+  margin-bottom: 40px;
 
 }
 
@@ -376,47 +450,38 @@ body {
 
 }
 
-.brand-lc h1 span {
-
-  background-color: #BEFFBC;
-
-}
-
-.brand-lc h1:after {
-
-  content: attr(data-content);
-  position: absolute;
-  color: #212121;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background-color: #fff;
-
-}
-
 .brand-lc p {
 
   font-family: "Lato", sans-serif;
   color: #212121;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   width: 85%;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 26px;
 
 }
 
 .brand-lc a {
 
   color: #212121;
-  text-decoration: underline;
-  font-family: "Playfair Display", sans-serif;
-  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 15px;
+  border-bottom: 1px solid #212121;
+  padding-bottom: 7px;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.2;
+  transition: all 0.4s ease;
+  cursor: pointer;
 
 }
 
 .brand-lc a:hover {
 
   opacity: 0.75;
-  transition: all 0.3s ease;
+  margin-left: 5px;
+  transition: all 0.4s ease;
 
 }
 
@@ -452,7 +517,7 @@ body {
   margin: 0 auto;
   width: 85%;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   display: flex;
   align-items: center;
 
@@ -480,6 +545,9 @@ body {
 
   width: 85%;
   float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 
 }
 
@@ -494,46 +562,37 @@ body {
 
 }
 
-.website-rc h1 span {
-
-  background-color: #BEFFBC;
-
-}
-
-.website-rc h1:after {
-
-  content: attr(data-content);
-  position: absolute;
-  color: #212121;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background-color: #fff;
-
-}
-
 .website-rc p {
 
   font-family: "Lato", sans-serif;
   color: #212121;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 26px;
 
 }
 
 .website-rc a {
 
   color: #212121;
-  text-decoration: underline;
-  font-family: "Playfair Display", sans-serif;
-  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  padding-top: 15px;
+  border-bottom: 1px solid #212121;
+  padding-bottom: 7px;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.2;
+  transition: all 0.4s ease;
+  cursor: pointer;
 
 }
 
 .website-rc a:hover {
 
   opacity: 0.75;
-  transition: all 0.3s ease;
+  margin-right : 5px;
+  transition: all 0.4s ease;
 
 }
 
@@ -548,7 +607,7 @@ body {
 .about-sec {
 
   width: 100%;
-  background-color: #eee;
+  background-color: #212121;
   overflow: hidden;
   height: 600px;
 
@@ -579,7 +638,7 @@ body {
 
 .about-right .about-content {
 
-  width: 85%;
+  width: 78%;
 
 }
 
@@ -587,10 +646,9 @@ body {
 
   font-family: 'Playfair Display', serif;
   font-size: 2.5rem;
-  color: #212121;
+  color: #fff;
   margin: 0;
   padding: 0;
-  padding-bottom: 20px;
 
 }
 
@@ -599,17 +657,17 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 1.25rem;
 
-  color: #212121;
+  color: #fff;
   margin: 0;
-  padding-top: 20px;
+  padding-top: 30px;
 
 }
 
 .about-right p {
 
   font-family: 'Lato', sans-serif;
-  font-size: 1.25rem;
-  color: #212121;
+  font-size: 1.1rem;
+  color: #fff;
   margin: 0;
   padding: 0;
 
@@ -698,7 +756,7 @@ body {
 
   margin: 0 auto;
   width: 75%;
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 190px;
   text-align: center;
 
@@ -725,13 +783,13 @@ body {
 
   color: #212121;
   text-decoration: none;
-  border: 1px solid #212121;
+  border: 2px solid #212121;
   font-family: "Lato", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 0.75rem;
-  padding: 25px 40px 25px 40px;
+  padding: 20px 35px 20px 35px;
   transition: all 0.3s ease;
-  letter-spacing: 8px;
+  letter-spacing: 5px;
 
 }
 
@@ -739,7 +797,8 @@ body {
 
   color: #fff;
   background-color: #212121;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+  padding: 20px 30px 20px 40px;
 
 }
 
@@ -858,6 +917,12 @@ body {
 
 @media only screen and (max-width: 768px) {
 
+  .nav-screen .nav-screen-content a {
+
+    font-size: 3rem;
+
+  }
+
   .intro-lc h1 {
 
     font-size: 2.5rem;
@@ -876,13 +941,11 @@ body {
 
     color: #212121;
     text-decoration: none;
-    border: 1px solid #212121;
     font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-size: 0.6rem;
-    padding: 18px 30px 18px 30px;
+    font-size: 0.7rem;
+    padding: 18px 28px 18px 28px;
     transition: all 0.3s ease;
-    letter-spacing: 8px;
+    letter-spacing: 6px;
 
   }
 
@@ -908,13 +971,14 @@ body {
     width: 100%;
     float: none;
     padding-bottom: 100px;
-    text-align: center;
 
   }
 
   .brand-lc h1 {
 
     width: 100%;
+    font-size:2.25rem;
+    line-height: 1.3;
 
   }
 
@@ -948,10 +1012,6 @@ body {
 
     width: 100%;
     float: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     padding-bottom: 75px;
     padding-top: 75px;
 
@@ -967,14 +1027,14 @@ body {
   .website-rc h1 {
 
     width: 100%;
-    text-align: center;
+    font-size:2.25rem;
+    line-height: 1.3;
 
   }
 
   .website-rc p {
 
     width: 100%;
-    text-align: center;
 
   }
 
@@ -995,6 +1055,13 @@ body {
 
     display: block;
     padding-top: 50px;
+    padding-bottom:50px;
+
+  }
+
+  .underline {
+
+    padding-bottom:3px;
 
   }
 
@@ -1023,11 +1090,25 @@ body {
     float: none;
 
   }
+
+  .about-right {
+
+    font-size:2.25rem;
+
+  }
+
   .end-title h1 {
 
     color: #fff;
     font-family: 'Playfair Display', serif;
     font-size: 1rem;
+
+  }
+
+  .accentDivider { /* ACCENT DIVIDER HERE */
+
+    margin-top:25px;
+    margin-bottom: 40px;
 
   }
 
