@@ -1,7 +1,7 @@
 <html lang="en">
 
   <head>
-
+    <link rel="stylesheet" type="text/css" href="css/project.css">
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121430626-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -15,26 +15,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/32x32-02.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/16x16-02.png">
-    <link rel="stylesheet" type="text/css" href="css/project.css">
+    <link rel="icon" type="image/png" href="img/blacklogonew.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/blacklogonew.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/blacklogonew.png">
     <link rel="manifest" href="json/manifest.json">
 
   </head>
 
   <body>
+    <script>$(".main").hide();</script>
 
     <div id="navbarid" class="nav-screen">
 
-      <div class="ham-menu" onclick="closeNav()">
+      <div class="ham-menu-close" onclick="closeNav()">
 
-        <img src="img/ham-menu-close.png" height="40px"/>
+          <div class="ham-menu-close-inner">
+
+            <img src="img/ham-menu-close-black.png" height="22px"/>
+
+          </div>
+
+          <!--<span style="color: #fff;padding-left: 15px;" class="menu-name">CLOSE</span> -->
+
+        </div>
+
+      <div class="logo-nav">
+
+        <a href="index.html"><img height="45px" src="img/blacklogonew.png"/></a>
 
       </div>
 
-      <a class="nav-link" href="index.html">Home</a>
-      <a class="nav-link" href="https://medium.com/@dannyver">The Blog</a>
-      <a class="nav-link" href="contact.html">Contact</a>
+      <div class="nav-screen-content">
+
+          <a class="nav-link" href="index.html">Home —</a>
+          <a class="nav-link" href="https://medium.com/@dannyver">Blog —</a>
+          <a class="nav-link" href="contact.html">Contact —</a>
+
+      </div>
 
     </div>
 
@@ -46,7 +63,7 @@
 
           <div class="nav-left">
 
-            <a href="index.html"><img height="40px" src="img/logo.png"/></a>
+            <a href="index.html"><img height="45px" src="img/logowhite.png"/></a>
 
           </div>
 
@@ -60,17 +77,30 @@
 
             </div>
 
-            <span class="menu-name">Menu</span>
+            <span class="menu-name">MENU</span>
 
           </div>
 
         </nav>
+        <!--<div class="intro-content">
+
+          <h1>Propelling People & Ideas<br> <i><span class="forward">Forward.</span></i></h1>
+          <p class="intro-p">Designing and developing unique solutions for businesses and individuals with strategy and purpose.</p>
+          <div class="vertical-ascender"></div>
+
+        </div>
+
+        <div class="intro-rc">
+
+          <img class="intro-img" height="85%" src="img/rightbkgrd.png"/>
+
+        </div> -->
 
         <div class="intro-content">
 
           <h1>Projects</h1>
-          <a href="https://dribbble.com/dannyver"><img height="30px" src="img/dribbbleblack.png"></a>
-          <a href="https://www.behance.net/dannyver"><img height="30px" src="img/behanceblack.png"></a>
+          <a href="https://dribbble.com/dannyver"><img height="30px" src="img/dribbblewhite.png"></a>
+          <a href="https://www.behance.net/dannyver"><img height="30px" src="img/behancewhite.png"></a>
 
         </div>
 
@@ -86,15 +116,23 @@
 
               <div class="roundup">
 
-                <h3>Brand Design, Brand Strategy, Website</h3>
-                <h1><i>Honest Adventure Vehicles</i></h1>
-                <p>Honest Adventure Vehicles bridges people and nature through the creation of custom adventure vehicles. They value simplicity, trust, community, and quality with the goal of building intuitive vehicles that people can use to get out and do what they love. Honest is managed by a van-dweller himself, Lucas Hanson. They aren't strangers, in fact, they embrace the lifestyle of complete freedom just as the client does. In a way, they feel like your family.</p>
-                <a href="https://www.behance.net/gallery/80966643/Honest-Adventure-Vehicles-Brand-Design">SEE MORE -></a>
+                <h1>Don't Mess With The Captain</h1>
+                <div class="accentDivider"></div>
+                <div class="tag-section">
+
+                  <span class="tag">BRAND DESIGN</span>
+                  <span class="tag">BRAND STRATEGY</span>
+                  <span class="tag">ILLUSTRATION</span>
+
+                </div>
+                <p>Don't Mess With The Captain is a tattoo parlor that values being simple, tough, and nautical. Situated on the waterfront in Buffalo, NY, they work on vintage and naval inspired tattoos that aren't copy and paste. I worked on creating an illustration and surrounding brand that embodied these values.</p>
+
+                <a href="https://www.behance.net/gallery/101885573/Dont-Mess-With-The-Captain">SEE MORE</a>
 
               </div>
 
             </div>
-            <div class="right-content" id="honest"></div>
+            <div class="right-content" id="dontmess"></div>
 
           </div>
 
@@ -104,10 +142,18 @@
 
               <div class="roundup">
 
-                <h3>Brand Design, Brand Strategy, Website</h3>
-                <h1><i>The Trend Shop</i></h1>
+                <h1>The Trend Shop</h1>
+                <div class="accentDivider"></div>
+                <div class="tag-section">
+
+                  <span class="tag">BRAND DESIGN</span>
+                  <span class="tag">BRAND STRATEGY</span>
+                  <span class="tag">WEBSITE</span>
+
+                </div>
                 <p>The Trend Shop is the hub for all the latest trends. Their goal is to create a space that accepts everyone no matter the gender, race, or ethnicity. With that in mind, I crafted the brand to embody those values.</p>
-                <a href="https://www.behance.net/gallery/75773533/The-Trend-Shop">SEE MORE -></a>
+
+                <a href="https://www.behance.net/gallery/75773533/The-Trend-Shop">SEE MORE</a>
 
               </div>
 
@@ -122,10 +168,70 @@
 
               <div class="roundup">
 
-                <h3>Brand Design, Brand Strategy, Marketing</h3>
-                <h1><i>Meurice NYC</i></h1>
+                <h1>Honest Adventure Vehicles</h1>
+                <div class="accentDivider"></div>
+                <div class="tag-section">
+
+                  <span class="tag">BRAND DESIGN</span>
+                  <span class="tag">BRAND STRATEGY</span>
+                  <span class="tag">WEBSITE</span>
+
+                </div>
+                <p>Honest Adventure Vehicles bridges people and nature through the creation of custom adventure vehicles. They value simplicity, trust, community, and quality with the goal of building intuitive vehicles that people can use to get out and do what they love. Honest is managed by a van-dweller himself, Lucas Hanson. They aren't strangers, in fact, they embrace the lifestyle of complete freedom just as the client does. In a way, they feel like your family.</p>
+
+                <a href="https://www.behance.net/gallery/80966643/Honest-Adventure-Vehicles-Brand-Design">SEE MORE</a>
+
+              </div>
+
+            </div>
+            <div class="right-content" id="honest"></div>
+
+          </div>
+
+          <div class="work-block">
+
+            <div class="left-content">
+
+              <div class="roundup">
+
+                <h1>Inner Resource Counseling</h1>
+                <div class="accentDivider"></div>
+                <div class="tag-section">
+
+                  <span class="tag">BRAND DESIGN</span>
+                  <span class="tag">BRAND STRATEGY</span>
+                  <span class="tag">SOCIAL MEDIA</span>
+                  <span class="tag">WEBSITE</span>
+
+                </div>
+                <p>Inner Resource Counseling is a safe and empowering space for those who are facing difficult life transitions, emotional upheavals, and unexpected losses. I worked with Erin to uncover the values behind her therapy practice: empathy, comfort, and the client's journey. With that, we created a strong brand identity and website that encompasses those values.</p>
+                <a href="https://www.innerresourcecounseling.com/">SEE MORE</a>
+
+              </div>
+
+            </div>
+            <div class="right-content" id="irc"></div>
+
+          </div>
+
+          <div class="work-block">
+
+            <div class="left-content">
+
+              <div class="roundup">
+
+                <h1>Meurice NYC</h1>
+                <div class="accentDivider"></div>
+                <div class="tag-section">
+
+                  <span class="tag">BRAND DESIGN</span>
+                  <span class="tag">BRAND STRATEGY</span>
+                  <span class="tag">MARKETING</span>
+
+                </div>
                 <p>Meurice is a luxury cleaning business based in New York City. My task was to rebrand the previous Meurice into something that values luxury, simplicity, and their history. I brought back the "Meurice Purple" and the hertiage of the brand.</p>
-                <a href="https://www.behance.net/gallery/76574175/Meurice-NYC">SEE MORE -></a>
+
+                <a href="https://www.behance.net/gallery/76574175/Meurice-NYC">SEE MORE</a>
 
               </div>
 
@@ -140,14 +246,20 @@
 
               <div class="roundup">
 
-                <h3>Brand Design, Brand Strategy, Marketing, Website, Manufacturing</h3>
-                <h1><i>By Kelsey Archila</i></h1>
-                <p>Kelsey Archila is a custom shoe designer with a passion for empowering women to be their unique selves. With that in mind we crafted a brand that encompasses kelsey's unique design style and her ambition for a bold and eye-catching brand. Her goal is to empower women to stop the fit-the-mold mentality and express themselves.</p>
+                <h1>Terrene: Food From The Earth</h1>
+                <div class="accentDivider"></div>
+                <div class="tag-section">
+
+                  <span class="tag">LOGO DESIGN</span>
+
+                </div>
+                <p>Terrene celebrates all that is cared for and cultivated. I worked with them to create an identity that best represents "food from the earth." With that in mind, I create an icon and wordmark that reflect the curves and flow of the earth. The icon is a reflection of three things: the farm where food is cultivated, bolded lines to show the importance of the brand, and a slight point at the bottom to represent the alchemist symbol for the earth.</p>
+
 
               </div>
 
             </div>
-            <div class="right-content" id="kelsey"></div>
+            <div class="right-content" id="terrene"></div>
 
           </div>
 
@@ -157,9 +269,65 @@
 
               <div class="roundup">
 
-                <h3>Logo Redesign</h3>
-                <h1><i>Range Collective</i></h1>
-                <p>Range Collective is a social media company that specializes in content creation, social strategy/retainer, and influencer campaigns. We are working to redesign the logo for their social media page, Range Collective.</p>
+                <h1>Marine Lane</h1>
+                <div class="accentDivider"></div>
+                <div class="tag-section">
+
+                  <span class="tag">WEBSITE DEV & DESIGN</span>
+
+                </div>
+                <p>On the lane they are an eclectic — okay motley — crew of folks bonded by a shared love of design and belief in the power it has to connect, inspire, calm, excite, sell, amuse and then some.  As a collective, their quest is originality and envelope pushing in service of their clients’ needs.</p>
+
+                <a href="https://www.marinelane.com/">SEE MORE</a>
+
+              </div>
+
+            </div>
+            <div class="right-content" id="marine"></div>
+
+          </div>
+
+          <div class="work-block">
+
+            <div class="left-content">
+
+              <div class="roundup">
+
+                <h1>NDOband</h1>
+                <div class="accentDivider"></div>
+                <div class="tag-section">
+
+                  <span class="tag">DESIGN STRATEGY</span>
+                  <span class="tag">NDO ID - BACK END</span>
+
+                </div>
+                <p>NDObands define versatility in the fitness world. Whether your're in the office, on the train, outside, or standing in line, you can get a quick workout out in with their bands. They work all areas of the body and are easy to travel with. They value community and building up their trainers for success</p>
+
+              </div>
+
+            </div>
+            <div class="right-content" id="ndo"></div>
+
+          </div>
+
+          <div class="work-block">
+
+            <div class="left-content">
+
+              <div class="roundup">
+
+                <h1>Holding Space</h1>
+                <div class="accentDivider"></div>
+                <div class="tag-section">
+
+                  <span class="tag">BRAND STRATEGY</span>
+                  <span class="tag">BRAND DESIGN</span>
+                  <span class="tag">WEBSITE</span>
+                  <span class="tag">MARKETING</span>
+
+                </div>
+                <p>Holding Space™®© is a political education incubator. We cultivate relationships, build curriculum, and host wisdom exchanges to support hyper-local, community-controlled harm reduction projects and mutual aid networks.</br></br>We are prison and police abolitionists. Through our pedagogical and organizing practices we are committed to: meeting people where they are at; deprofessionalizing knowledge; and establishing infrastructures that respond to community needs without relying on the U.S. nation-state.
+</p>
 
               </div>
 
@@ -184,7 +352,7 @@
             <img src="img/iceland3.png"/>
 
           </div>
-          <h2><i>- Graffiti Artist Brand -</i></h2>
+          <h2><i>- Trails Less Traveled -</i></h2>
           <div class="insta-set">
 
             <img src="img/la1.png"/>
@@ -203,7 +371,7 @@
 
         <div class="end-content">
 
-          <div class="end-coffee"><h1>👋<i> Let's Meet & Grab A Coffee</i></h1></div>
+          <div class="end-coffee"><h1>👋<i> Let's Meet & Grab A Coffee</i></h1><p style="color:#fff;font-family:Playfair Display, serif;font-size:12px;"><i>*probably over zoom</i></p></div>
 
           <div class="sep-line"></div>
 
