@@ -132,7 +132,7 @@ body {
 .nav-screen .nav-screen-content a {
 
   text-decoration: none;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "span", sans-serif;
   font-weight: 500;
   font-size: 4.5rem;
   color: #212121;
@@ -238,7 +238,7 @@ body {
 
 .intro-content h1 {
 
-  font-family: "Playfair Display", sans-serif;
+  font-family: "span", sans-serif;
   color: #fff;
   font-size: 3.5rem;
   padding: 10px;
@@ -318,7 +318,7 @@ body {
   padding:0;
   margin:0;
   color: #212121;
-  font-family: 'Playfair Display', serif;
+  font-family: 'span', serif;
   font-size: 1rem;
 
 }
@@ -336,7 +336,7 @@ body {
 
 .work-block .left-content .roundup h1 {
 
-  font-family: 'Playfair Display', serif;
+  font-family: 'span', serif;
   color: #212121;
   font-size: 3rem;
   padding-top: 15px;
@@ -465,6 +465,14 @@ body {
 
 }
 
+#kanu {
+
+  background-image: url('../img/kanu.png');
+  background-size: cover;
+  background-position: center;
+
+}
+
 
 /* Instagram */
 
@@ -511,7 +519,7 @@ body {
 .insta-content p {
 
   text-align: center;
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'span', sans-serif;
 
 }
 
@@ -528,7 +536,7 @@ body {
 .end-coffee h1 {
 
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'span', serif;
   font-size: 1.5rem;
   text-align: center;
   padding-bottom: 50px;
@@ -554,7 +562,7 @@ body {
 .end-title h1 {
 
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'span', serif;
   font-size: 1.5rem;
 
 }
@@ -665,7 +673,7 @@ body {
   .end-title h1 {
 
     color: #fff;
-    font-family: 'Playfair Display', serif;
+    font-family: 'span', serif;
     font-size: 1rem;
 
   }
