@@ -52,7 +52,7 @@ body {
 .load-screen p {
 
   color: #212121;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "span", sans-serif;
 
 }
 
@@ -148,7 +148,7 @@ body {
 .nav-screen .nav-screen-content a {
 
   text-decoration: none;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "span", sans-serif;
   font-weight: 500;
   font-size: 4.5rem;
   color: #fff;
@@ -269,8 +269,9 @@ body {
 
 .intro-lc h1 {
 
-  font-family: "Playfair Display", sans-serif;
-  font-size: 3.5rem;
+  font-family: "span", sans-serif;
+  font-size: 4rem;
+  line-height: 1.2;
   color: #212121;
   width: 85%;
 
@@ -278,9 +279,11 @@ body {
 
 .intro-lc p {
 
-  font-family: "Playfair Display", sans-serif;
-  font-size: 1.5rem;
-  width: 75%;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  width: 55%;
   padding-bottom: 50px;
 
 }
@@ -294,8 +297,8 @@ body {
   font-weight: 400;
   font-size: 0.75rem;
   padding: 20px 35px 20px 35px;
-  transition: all 0.3s ease;
   letter-spacing: 5px;
+  transition: all 0.3s ease;
 
 }
 
@@ -327,13 +330,15 @@ body {
 
 }
 
-.project h1 {
+.project .dept-main h2 {
 
   color: #fff;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "span", sans-serif;
   font-size: 2.5rem;
+  line-height:1.2;
   margin: 0;
   padding: 0;
+  padding-bottom: 50px;
 
 }
 
@@ -347,12 +352,10 @@ body {
 .project .dept-main p {
 
   color: #fff;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
-  font-size: 1.25rem;
-  font-weight: 300;
-  padding-bottom: 50px;
-  padding-top: 10px;
+  font-size: 1rem;
+  padding-bottom: 5px;
 
 }
 
@@ -374,13 +377,14 @@ body {
 
 }
 
-.project .dept-sec h1 {
+.project .dept-sec h2 {
 
   font-size: 1.75rem;
   color: #fff;
-  font-family: "Playfair display", sans-serif;
+  font-family: "span", sans-serif;
   font-weight: 700;
   padding-bottom: 20px;
+  margin:0;
 
 }
 
@@ -440,7 +444,7 @@ body {
 
 .brand-lc h1 {
 
-  font-family: "Playfair Display", sans-serif;
+  font-family: "span", sans-serif;
   font-size: 2.5rem;
   color: #212121;
   width: 85%;
@@ -553,7 +557,7 @@ body {
 
 .website-rc h1 {
 
-  font-family: "Playfair Display", sans-serif;
+  font-family: "span", sans-serif;
   font-size: 2.5rem;
   color: #212121;
   margin: 0;
@@ -644,7 +648,7 @@ body {
 
 .about-right h1 {
 
-  font-family: 'Playfair Display', serif;
+  font-family: 'span', serif;
   font-size: 2.5rem;
   color: #fff;
   margin: 0;
@@ -654,7 +658,7 @@ body {
 
 .about-right h3 {
 
-  font-family: 'Playfair Display', serif;
+  font-family: 'span', serif;
   font-size: 1.25rem;
 
   color: #fff;
@@ -697,7 +701,7 @@ body {
 
   text-align: center;
   color: #212121;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "span", sans-serif;
   font-size: 2.25rem;
   margin: 0;
   padding: 0;
@@ -718,7 +722,7 @@ body {
 
   color: #212121;
   text-decoration: underline;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "span", sans-serif;
   transition: all 0.3s ease;
 
 }
@@ -766,7 +770,7 @@ body {
 
   font-size: 2.5rem;
   color: #212121;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "span", sans-serif;
 
 }
 
@@ -774,7 +778,7 @@ body {
 
   font-size: 1.5rem;
   color: #212121;
-  font-family: "Playfair Display", sans-serif;
+  font-family: "span", sans-serif;
   padding-bottom: 40px;
 
 }
@@ -815,7 +819,7 @@ body {
 .end-coffee h1 {
 
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'span', serif;
   font-size: 1.5rem;
   text-align: center;
   padding-bottom: 50px;
@@ -841,7 +845,7 @@ body {
 .end-title h1 {
 
   color: #fff;
-  font-family: 'Playfair Display', serif;
+  font-family: 'span', serif;
   font-size: 1.5rem;
 
 }
@@ -1100,7 +1104,7 @@ body {
   .end-title h1 {
 
     color: #fff;
-    font-family: 'Playfair Display', serif;
+    font-family: 'span', serif;
     font-size: 1rem;
 
   }
