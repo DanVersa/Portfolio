@@ -401,6 +401,14 @@ body {
 
 }
 
+#holding {
+
+  background-image: url('../img/holding.png');
+  background-size: cover;
+  background-position: center;
+
+}
+
 #apres {
 
   background-image: url('../img/apres.png');
