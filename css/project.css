@@ -133,7 +133,7 @@ body {
 
   text-decoration: none;
   font-family: "span", sans-serif;
-  font-weight: 500;
+  font-weight: 100;
   font-size: 4.5rem;
   color: #212121;
   transition: all 0.4s ease;
@@ -206,7 +206,8 @@ body {
 
 .menu-name {
 
-  font-family: "Lato", sans-serif;
+  font-family: "span", sans-serif;
+  font-weight: 100;
   color: #fff;
 
 }
@@ -240,7 +241,8 @@ body {
 
   font-family: "span", sans-serif;
   color: #fff;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
+  font-weight: 100;
   padding: 10px;
   margin-bottom: 15px;
   font-style: italic;
@@ -328,7 +330,8 @@ body {
   padding-bottom: 20px;
   margin:0;
   color: #212121;
-  font-family: 'Lato', sans-serif;
+  font-family: 'sofia-pro', sans-serif;
+  font-weight: 100;
   font-size: 1rem;
   line-height: 20px;
 
@@ -340,6 +343,7 @@ body {
   color: #212121;
   font-size: 3rem;
   padding-top: 15px;
+  font-weight:100;
   margin:0;
   line-height: 1.25;
 
@@ -510,6 +514,8 @@ body {
 .insta-content h2 {
 
   text-align: center;
+  font-family: 'span', serif;
+  font-weight: 100;
   padding-top: 30px;
   padding-bottom: 30px;
 
