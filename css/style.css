@@ -22,17 +22,17 @@ body {
 
 ::selection {
 
-  background: #57C58F;
+  background: #fdff32;
 
 }
 
 ::-moz-selection {
 
-  background: #57C58F;
+  background: #fdff32;
 
 }
 
-/* Loading Screen */
+/* Loading Screen #57C58F */
 
 .load-screen {
 
@@ -149,7 +149,7 @@ body {
 
   text-decoration: none;
   font-family: "span", sans-serif;
-  font-weight: 500;
+  font-weight: 100;
   font-size: 4.5rem;
   color: #fff;
   transition: all 0.4s ease;
@@ -223,7 +223,8 @@ body {
 
 .menu-name {
 
-  font-family: "Lato", sans-serif;
+  font-family: "span", sans-serif;
+  font-weight: 100;
 
 }
 
@@ -270,21 +271,24 @@ body {
 .intro-lc h1 {
 
   font-family: "span", sans-serif;
-  font-size: 4rem;
-  line-height: 1.2;
+  font-weight: 100;
+  letter-spacing: 0;
+  font-size: 4.5rem;
+  line-height: 1.1;
   color: #212121;
-  width: 85%;
+  width: 90%;
+  padding: 0;
+  margin: 0;
 
 }
 
 .intro-lc p {
 
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.2;
-  width: 55%;
-  padding-bottom: 50px;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  width: 70%;
+  padding-bottom: 40px;
 
 }
 
@@ -293,8 +297,8 @@ body {
   color: #212121;
   text-decoration: none;
   border: 2px solid #212121;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 100;
   font-size: 0.75rem;
   padding: 20px 35px 20px 35px;
   letter-spacing: 5px;
@@ -334,8 +338,9 @@ body {
 
   color: #fff;
   font-family: "span", sans-serif;
-  font-size: 2.5rem;
-  line-height:1.2;
+  font-weight: 100;
+  font-size: 3rem;
+  line-height:1;
   margin: 0;
   padding: 0;
   padding-bottom: 50px;
@@ -352,7 +357,7 @@ body {
 .project .dept-main p {
 
   color: #fff;
-  font-family: "Lato", sans-serif;
+  font-family: "sofia-pro", sans-serif;
   font-weight: 700;
   font-size: 1rem;
   padding-bottom: 5px;
@@ -377,13 +382,13 @@ body {
 
 }
 
-.project .dept-sec h2 {
+.project .dept-sec h3 {
 
-  font-size: 1.75rem;
+  font-size: 2rem;
   color: #fff;
   font-family: "span", sans-serif;
-  font-weight: 700;
-  padding-bottom: 20px;
+  font-weight: 100;
+  padding-bottom: 10px;
   margin:0;
 
 }
@@ -400,7 +405,7 @@ body {
 
   color: #fff;
   font-size: .85rem;
-  font-family: "Lato", sans-serif;
+  font-family: "sofia-pro", sans-serif;
   font-weight: 700;
 
 }
@@ -445,9 +450,10 @@ body {
 .brand-lc h1 {
 
   font-family: "span", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 100;
   color: #212121;
-  width: 85%;
+  width: 90%;
   margin: 0;
   padding: 0;
   position: relative;
@@ -456,10 +462,11 @@ body {
 
 .brand-lc p {
 
-  font-family: "Lato", sans-serif;
+  font-family: "sofia-pro", sans-serif;
   color: #212121;
-  font-size: 1.1rem;
-  width: 85%;
+  font-size: 1rem;
+  font-weight: 100;
+  width: 80%;
   margin: 0;
   padding: 0;
   padding-bottom: 26px;
@@ -474,7 +481,8 @@ body {
   padding-top: 15px;
   border-bottom: 1px solid #212121;
   padding-bottom: 7px;
-  font-family: "Lato", sans-serif;
+  font-family: "sofia-pro", sans-serif;
+  font-size: 1rem;
   letter-spacing: 1.2;
   transition: all 0.4s ease;
   cursor: pointer;
@@ -558,8 +566,10 @@ body {
 .website-rc h1 {
 
   font-family: "span", sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 100;
   color: #212121;
+  width: 90%;
   margin: 0;
   padding: 0;
   position: relative;
@@ -568,9 +578,11 @@ body {
 
 .website-rc p {
 
-  font-family: "Lato", sans-serif;
+  font-family: "sofia-pro", sans-serif;
   color: #212121;
-  font-size: 1.15rem;
+  font-size: 1rem;
+  font-weight: 100;
+  width: 80%;
   margin: 0;
   padding: 0;
   padding-bottom: 26px;
@@ -585,7 +597,8 @@ body {
   padding-top: 15px;
   border-bottom: 1px solid #212121;
   padding-bottom: 7px;
-  font-family: "Lato", sans-serif;
+  font-family: "sofia-pro", sans-serif;
+  font-size: 1rem;
   letter-spacing: 1.2;
   transition: all 0.4s ease;
   cursor: pointer;
@@ -649,28 +662,19 @@ body {
 .about-right h1 {
 
   font-family: 'span', serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 100;
   color: #fff;
   margin: 0;
   padding: 0;
 
 }
 
-.about-right h3 {
-
-  font-family: 'span', serif;
-  font-size: 1.25rem;
-
-  color: #fff;
-  margin: 0;
-  padding-top: 30px;
-
-}
-
 .about-right p {
 
-  font-family: 'Lato', sans-serif;
-  font-size: 1.1rem;
+  font-family: 'sofia-pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -766,19 +770,23 @@ body {
 
 }
 
-.contact-main h1 {
+.contact-main h2 {
 
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #212121;
   font-family: "span", sans-serif;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
 
 }
 
-.contact-main p {
+.contact-main h3 {
 
   font-size: 1.5rem;
   color: #212121;
   font-family: "span", sans-serif;
+  font-weight: 100;
   padding-bottom: 40px;
 
 }
@@ -788,8 +796,8 @@ body {
   color: #212121;
   text-decoration: none;
   border: 2px solid #212121;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 100;
   font-size: 0.75rem;
   padding: 20px 35px 20px 35px;
   transition: all 0.3s ease;
@@ -803,6 +811,7 @@ body {
   background-color: #212121;
   transition: all 0.4s ease;
   padding: 20px 30px 20px 40px;
+  cursor: pointer;
 
 }
 
