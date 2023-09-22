@@ -405,6 +405,14 @@ body {
 
 }
 
+#longisland {
+
+  background-image: url('../img/LongIsland.png');
+  background-size: cover;
+  background-position: center;
+
+}
+
 #holding {
 
   background-image: url('../img/holding.png');
