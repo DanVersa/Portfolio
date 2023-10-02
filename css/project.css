@@ -413,6 +413,14 @@ body {
 
 }
 
+#hiossen {
+
+  background-image: url('../img/Portfolio1.png');
+  background-size: cover;
+  background-position: center;
+
+}
+
 #holding {
 
   background-image: url('../img/holding.png');
